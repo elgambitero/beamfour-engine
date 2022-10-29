@@ -1,10 +1,15 @@
 use crate::domain::entities::geometry::direction::Direction;
 use crate::domain::entities::geometry::point::Point;
 
-pub trait Vector {
-    fn new(p: Point, v: Direction) -> Self;
+pub struct Vector {
+    pub p: Point,
+    pub v: Direction,
+}
 
-    fn is_normalized(&self) -> bool;
-
-    fn normalize(&mut self);
+impl Vector{
+    pub fn new(p: Point, v: Direction) -> Self {
+        Vector {
+            p, v
+        }
+    }
 }
