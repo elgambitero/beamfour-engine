@@ -2,7 +2,7 @@ use crate::domain::entities::calculations::normalizer::Normalizer;
 use crate::domain::entities::geometry::direction::Direction;
 
 static EPSILON_MULT:f64 = 2f64;
-struct NormalizerCPU{
+pub struct NormalizerCPU{
 
 }
 
