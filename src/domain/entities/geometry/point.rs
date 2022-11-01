@@ -20,6 +20,8 @@ impl PartialEq for Point {
         (self.z - other.z).abs() < TOL
     }
 }
+
+
     
 
 #[cfg(test)]

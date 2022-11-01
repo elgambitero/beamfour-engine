@@ -58,7 +58,6 @@ mod tests{
         for item in inputs_and_answers {
             prop.propagate_mut(&mut item.0.1, item.0.0);
 
-            
         }
     }
 
