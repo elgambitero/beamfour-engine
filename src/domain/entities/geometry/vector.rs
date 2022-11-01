@@ -1,6 +1,7 @@
 use crate::domain::entities::geometry::direction::Direction;
 use crate::domain::entities::geometry::point::Point;
 
+#[derive(Debug)]
 pub struct Vector {
     pub p: Point,
     pub v: Direction,
